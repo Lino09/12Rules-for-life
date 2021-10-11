@@ -9,7 +9,7 @@
 Here you can find information about:
 
 - Dr. Jordan Peterson
-- Upcoming dates and event
+- Upcoming dates and events
 - Ticket purchase and donations
 
 ## Built With
