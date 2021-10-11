@@ -56,4 +56,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [Attribution-NonCommercial 4.0 International CC BY-NC 4.0] (https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+This project is [Attribution-NonCommercial 4.0 International CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
