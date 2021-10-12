@@ -13,18 +13,18 @@
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./styles/index.css">
-      <link rel="icon" href="./assets/png/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./assets/png/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <header id="navbar">
     <div class="mobile-nav">
       <button type="button" class="icon-opener">
-      <svg xmlns="http://www.w3.org/2000/svg" class="burguer icon only-mobile" fill="none" viewBox="0 0 24 24"
-        stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-    </button>
+        <svg xmlns="http://www.w3.org/2000/svg" class="burguer icon only-mobile" fill="none" viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
       <a href="./index.html">
         <img class="nav-logo" src="./assets/png/logobster.png" alt="">
       </a>
@@ -39,7 +39,7 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main id="main">
     <section class="hero">
       <div class="container" id="landing">
 
@@ -130,6 +130,8 @@
         <div class="separator"></div>
         <ul id="speakers">
         </ul>
+        <button type="button" class="see see-more">See More &#8595;</button>
+        <button type="button" class="see see-less no-display">See Less &#8593;</button>
       </div>
     </section>
   </main>
@@ -154,20 +156,22 @@
     </div>
   </footer>
   <div id="mobile-menu" class="only-mobile menu-mobile-hidden">
-    <button type="button" class=" icon-closer"><svg xmlns="http://www.w3.org/2000/svg" class="icon " fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-    </svg>
-  </button>
-  <nav id="bottom-nav">
-    <ul class="bottom nav">
-      <li class="nav-item  mobile-item"><a href="./about.html"> About</a></li>
-      <li class="nav-item  mobile-item"><a href="#main-program">Program</a></li>
-      <li class="nav-item  mobile-item"><a href="#featured">Featured Speakers</a></li>
-      <li class="nav-item  mobile-item">News</li>
-      <li class="nav-item  mobile-item">Book</li>
-    </ul>
-  </nav>
+    <button type="button" class=" icon-closer"><svg xmlns="http://www.w3.org/2000/svg" class="icon " fill="none"
+        viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+    <nav id="bottom-nav">
+      <ul class="bottom nav">
+        <li class="nav-item  mobile-item"><a href="./about.html"> About</a></li>
+        <li class="nav-item  mobile-item"><a href="#main-program">Program</a></li>
+        <li class="nav-item  mobile-item"><a href="#featured">Featured Speakers</a></li>
+        <li class="nav-item  mobile-item">News</li>
+        <li class="nav-item  mobile-item">Book</li>
+      </ul>
+    </nav>
   </div>
   <script src="./scripts/index.js"></script>
 </body>
+
 </html>
