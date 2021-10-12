@@ -34,12 +34,12 @@ const speakers = [
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id enim quis ex suscipit iaculis. Fusce nibh velit, bibendum et.',
     occupation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     img: 'https://via.placeholder.com/120',
-  }
+  },
 ];
 
 function populateSpeakers() {
   let featuredSpeakers = '';
-  speakers.forEach(dr => {
+  speakers.forEach((dr) => {
     featuredSpeakers += `<li>
     <div class="speaker-card">
       <img class="speaker-image" src="${dr.img}" alt="">
@@ -47,9 +47,24 @@ function populateSpeakers() {
       <span class="speaker-detail">${dr.occupation}</span>
       <p class="speaker-text">${dr.bio}</p>
     </div>
-  </li>`
+  </li>`;
   });
   document.querySelector('#speakers').innerHTML = featuredSpeakers;
-};
+}
 
+const mobileMenu = document.querySelector('#mobile-menu');
+
+function toggleMobileMenu() {
+  mobileMenu.classList.toggle('menu-mobile-hidden');
+  mobileMenu.classList.toggle('menu-mobile-visible');
+}
+
+document.querySelector('.icon-opener').addEventListener('click', toggleMobileMenu);
+document.querySelector('.icon-closer').addEventListener('click', toggleMobileMenu);
+
+const items = document.querySelectorAll('.mobile-item');
+
+items.forEach((item) => {
+  item.addEventListener('click', toggleMobileMenu);
+});
 populateSpeakers();
