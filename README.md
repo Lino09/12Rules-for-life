@@ -4,7 +4,7 @@
 
 > Information page about the "Antidote to Chaos Tour"
 
-![screenshot](./app_screenshot.png) * Pending
+![screenshot](./assets/png/screenshot.png)
 
 Here you can find information about:
 
@@ -18,7 +18,7 @@ Here you can find information about:
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com) * Pending
+[Live Demo](https://lino09.github.io/12Rules-for-life/)
 
 
 ## Getting Started
