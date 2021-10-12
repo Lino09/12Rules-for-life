@@ -42,7 +42,7 @@ const lessButton = document.querySelector('.see-less');
 
 let featuredSpeakers = '';
 function populateSpeakers() {
-  for (let i = 0; i <= 2; i++ ) {
+  for (let i = 0; i <= 2; i += 1) {
     featuredSpeakers += `<li>
     <div class="speaker-card">
       <img class="speaker-image" src="${speakers[i].img}" alt="">
@@ -57,7 +57,7 @@ function populateSpeakers() {
 }
 
 function seeMore() {
-  for (let i = 3; i <= 5; i++) {
+  for (let i = 3; i <= 5; i += 1) {
     featuredSpeakers += `<li>
     <div class="speaker-card">
       <img class="speaker-image" src="${speakers[i].img}" alt="">
@@ -100,8 +100,8 @@ items.forEach((item) => {
 });
 
 populateSpeakers();
-let viewportWidth = window.innerWidth;
+const viewportWidth = window.innerWidth;
 if (viewportWidth > 768) {
   seeMore();
-  lessButton.classList.add('no-display')
+  lessButton.classList.add('no-display');
 }
