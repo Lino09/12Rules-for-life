@@ -3,37 +3,37 @@ const speakers = [
     name: 'Dr. Jordan B. Peterson',
     bio: 'Dr. Jordan B. Peterson is a clinical psychologist, and the author of the bestseller 12 Rules for Life: An Antidote to Chaos.',
     occupation: 'Professor of psychology at the University of Toronto',
-    img: '../assets/png/speakers/peterson.png',
+    img: './assets/png/speakers/peterson.png',
   },
   {
     name: 'Dr. Carl Gustav Jung',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id enim quis.',
     occupation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    img: '../assets/png/speakers/jung.png',
+    img: './assets/png/speakers/jung.png',
   },
   {
     name: 'Wilhelm Wundt',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id enim quis.',
     occupation: 'Father of modern psycology',
-    img: '../assets/png/speakers/wilhelm.png',
+    img: './assets/png/speakers/wilhelm.png',
   },
   {
     name: 'Dr. Frederick B. Skinner',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id enim quis.',
     occupation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    img: '../assets/png/speakers/skinner.png',
+    img: './assets/png/speakers/skinner.png',
   },
   {
     name: 'Dr. Abraham Maslow',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id enim quis.',
     occupation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    img: '../assets/png/speakers/maslow.png',
+    img: './assets/png/speakers/maslow.png',
   },
   {
     name: 'Dr. Sigmund Freud',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id enim quis.',
     occupation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    img: '../assets/png/speakers/freud.png',
+    img: './assets/png/speakers/freud.png',
   },
 ];
 
@@ -49,7 +49,7 @@ function populateSpeakers() {
       <span class="speaker-name">${speakers[i].name}</span>
       <span class="speaker-detail">${speakers[i].occupation}</span>
       <p class="speaker-text">${speakers[i].bio}</p>
-      <img class="checkers" src="../assets/svg/checkers.svg" alt="">
+      <img class="checkers" src="./assets/svg/checkers.svg" alt="">
     </div>
   </li>`;
   }
@@ -64,7 +64,7 @@ function seeMore() {
       <span class="speaker-name">${speakers[i].name}</span>
       <span class="speaker-detail">${speakers[i].occupation}</span>
       <p class="speaker-text">${speakers[i].bio}</p>
-      <img class="checkers" src="../assets/svg/checkers.svg" alt="">
+      <img class="checkers" src="./assets/svg/checkers.svg" alt="">
     </div>
   </li>`;
   }
