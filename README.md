@@ -20,6 +20,10 @@ Here you can find information about:
 
 [Live Demo](https://lino09.github.io/12Rules-for-life/)
 
+## Video presentation
+
+[Click Here](https://www.loom.com/share/f217713311ce4e57a50954d61e3e2b57)
+
 
 ## Getting Started
 
