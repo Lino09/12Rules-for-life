@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <pattern id="a" width="50" height="50" patternUnits="userSpaceOnUse">
+   <path d="m0 0h5v5h-5z"/>
+   <path d="m10 0h5v5h-5z"/>
+   <path d="m5 5h5v5h-5z"/>
+   <path d="m15 5h5v5h-5z"/>
+   <path d="m10 10h5v5h-5z"/>
+   <path d="m0 10h5v5h-5z"/>
+   <path d="m15 15h5v5h-5z"/>
+   <path d="m5 15h5v5h-5z"/>
+   <path d="m0 20h5v5h-5z"/>
+   <path d="m10 20h5v5h-5z"/>
+   <path d="m5 25h5v5h-5z"/>
+   <path d="m15 25h5v5h-5z"/>
+   <path d="m10 30h5v5h-5z"/>
+   <path d="m0 30h5v5h-5z"/>
+   <path d="m15 35h5v5h-5z"/>
+   <path d="m5 35h5v5h-5z"/>
+   <path d="m0 40h5v5h-5z"/>
+   <path d="m10 40h5v5h-5z"/>
+   <path d="m5 45h5v5h-5z"/>
+   <path d="m15 45h5v5h-5z"/>
+   <path d="m20 0h5v5h-5z"/>
+   <path d="m30 0h5v5h-5z"/>
+   <path d="m25 5h5v5h-5z"/>
+   <path d="m35 5h5v5h-5z"/>
+   <path d="m30 10h5v5h-5z"/>
+   <path d="m20 10h5v5h-5z"/>
+   <path d="m35 15h5v5h-5z"/>
+   <path d="m25 15h5v5h-5z"/>
+   <path d="m20 20h5v5h-5z"/>
+   <path d="m30 20h5v5h-5z"/>
+   <path d="m25 25h5v5h-5z"/>
+   <path d="m35 25h5v5h-5z"/>
+   <path d="m30 30h5v5h-5z"/>
+   <path d="m20 30h5v5h-5z"/>
+   <path d="m35 35h5v5h-5z"/>
+   <path d="m25 35h5v5h-5z"/>
+   <path d="m20 40h5v5h-5z"/>
+   <path d="m30 40h5v5h-5z"/>
+   <path d="m25 45h5v5h-5z"/>
+   <path d="m35 45h5v5h-5z"/>
+   <path d="m40 0h5v5h-5z"/>
+   <path d="m45 5h5v5h-5z"/>
+   <path d="m40 10h5v5h-5z"/>
+   <path d="m45 15h5v5h-5z"/>
+   <path d="m40 20h5v5h-5z"/>
+   <path d="m45 25h5v5h-5z"/>
+   <path d="m40 30h5v5h-5z"/>
+   <path d="m40 40h5v5h-5z"/>
+   <path d="m45 35h5v5h-5z"/>
+   <path d="m45 45h5v5h-5z"/>
+  </pattern>
+ </defs>
+ <path d="m0 0h50v50h-50z" fill="url(#a)"/>
+</svg>
