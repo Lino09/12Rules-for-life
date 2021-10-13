@@ -13,6 +13,10 @@ html {
   font-style: normal;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 #navbar {
   padding: 16px;
   box-shadow: 0 1px 5px rgb(190, 190, 190);
