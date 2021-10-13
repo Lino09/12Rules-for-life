@@ -43,7 +43,7 @@ a {
   position: fixed;
   top: 0%;
   height: 100vh;
-  background-color: whitesmoke;
+  background-color: #d3d3d3;
   padding: 80px 16px;
   transition: all 0.5s ease 0s;
 }
@@ -170,7 +170,7 @@ h1 {
 
 .hero-text-container {
   background-color: rgba(255, 255, 255, 0.7);
-  border: 6px solid white;
+  border: 6px solid #d3d3d3;
   padding: 16px;
 }
 
@@ -326,7 +326,7 @@ h1 {
   justify-content: center;
   width: 100%;
   background-color: #272a31;
-  color: whitesmoke;
+  color: #d3d3d3;
 }
 
 .contact-info {
@@ -335,7 +335,7 @@ h1 {
   justify-content: center;
   width: 100%;
   color: dimgray;
-  background-color: whitesmoke;
+  background-color: #d3d3d3;
   padding: 24px;
 }
 

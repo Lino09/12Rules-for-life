@@ -52,7 +52,7 @@ h1 {
 
 .hero-text-container {
   background-color: rgba(255, 255, 255, 0.7);
-  border: 6px solid white;
+  border: 6px solid #d3d3d3;
   padding: 16px;
 }
 
@@ -98,7 +98,7 @@ h1 {
   width: 80%;
   flex-direction: row;
   justify-content: space-around;
-  background-color: white;
+  background-color: #d3d3d3;
   padding: 24px 0;
   margin: 36px 0;
 }
@@ -177,7 +177,7 @@ h1 {
 
 .logo-section {
   width: 100%;
-  background-color: white;
+  background-color: #d3d3d3;
 }
 
 .logo-text {
