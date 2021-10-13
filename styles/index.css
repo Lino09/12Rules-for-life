@@ -284,6 +284,7 @@ h1 {
   z-index: 10;
   grid-row: 1 / span 3;
   width: 120px;
+  margin: 16px 16px 0 0;
 }
 
 .speaker-detail {
